@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 2em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #eaeaea;
+}
+
+form {
+  border: 1px solid #ccc;
+  padding: 2em;
+  border-radius: 6px;
+  background: #fff;
+}
+
+.form-field-container {
+  margin-bottom: 1em;
+}
+
+.form-field-container > label {
+  display: block;
+  margin-bottom: 6px;
+}
+
+.form-field-container > input:not([type="checkbox"]) {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  background: #eaeaea;
+}
+
+h3 {
+  margin-bottom: 1.5em;
+}
+
+.form-field-container > button {
+  padding: 6px 16px;
+  border: none;
+  background: crimson;
+  color: #fff;
+  border-radius: 18px;
+  margin-top: 1.5em;
+}
